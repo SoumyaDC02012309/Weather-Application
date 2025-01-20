@@ -52,7 +52,7 @@ To run the Weather Application, you need to set up API keys for Gemini and AccuW
 
 1. Launch the Streamlit app:
    ```bash
-   streamlit run app.py
+   streamlit run Weather App.py
    ```
 2. Open the displayed URL in your browser to access the application.
 
@@ -89,4 +89,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Weather data powered by **AccuWeather**.
 - AI insights powered by **Gemini**.
-- Interactive map powered by **Streamlit**.
+- Interactive map powered by **Streamlit Folium**.
