@@ -215,6 +215,10 @@ def main():
                                         mode='lines',
                                         name='Max Temperature (°C)',
                                         line=dict(color='red', width=1)))
+                fig.add_trace(go.Scatter(x=forecast_df['Date'], y=forecast_df['Min Temperature (°C)'],
+                                        mode='lines',
+                                        name='Min Temperature (°C)',
+                                        line=dict(color='green', width=1)))
                 
                 # Annotate max temperature for every day forecast
                 for i, row in forecast_df.iterrows():
